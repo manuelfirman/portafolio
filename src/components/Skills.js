@@ -1,9 +1,7 @@
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 import { Row, Col, Container } from "react-bootstrap";
-// import arrow1 from "../assets/img/arrow1.svg";
-// import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png";
+import sombra from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
@@ -27,16 +25,11 @@ export const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-      <Container>
+      <div className="contenedor">
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
-              </p>
+              <h2>HABILIDADES</h2>
               <Carousel
                 responsive={responsive}
                 infinite={true}
@@ -107,7 +100,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="github"
                   />
                 </div>
 
@@ -146,8 +139,8 @@ export const Skills = () => {
             </div>
           </Col>
         </Row>
-      </Container>
-      <img className="background-image-left" src={colorSharp} alt="background" />
+      </div>
+      <img className="fondo-izquierda" src={sombra} alt="background" />
     </section>
   );
 };

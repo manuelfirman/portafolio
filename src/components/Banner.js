@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { ArrowDownCircle } from "react-bootstrap-icons";
 import imgHeader from "../assets/img/perfil1.png";
 
 export const Banner = () => {
@@ -53,15 +53,13 @@ export const Banner = () => {
             <span className="tagline">Bienvenido a mi Portfolio!</span>
             <h1>{`MANUEL FIRMAN`}</h1>
             <h2><span className="txt-rotate"><span className="wrap">{texto}</span></span></h2>
-            {/* <h1>{`MANUEL FIRMAN`}</h1>
-            <span className="wrap">{texto}</span> */}
             <p>
-              KJLASDH KJAHSDHKJA SDKHJ ASDKJH ASKJHD AKJHSD AKJHSD JAKHSD KHJASD
-              KHJASDJHKADS
+              Hola! Soy estudiante de programación en la UTN, cursando el ultimo año <br>
+              </br>
             </p>
-            <button onClick={() => console.log("connect")}>
-              Let's connect <ArrowRightCircle size={25}/>
-            </button>
+            <a href="../assets/files/Firman_Juan_CV.pdf" download="Firman_Juan_CV.pdf">
+              <button>Descarga mi CV <ArrowDownCircle size={25}/></button>
+            </a>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={imgHeader} alt="Imagen header" />
