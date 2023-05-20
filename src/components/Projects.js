@@ -131,7 +131,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={sombra2} />
+      <img className="background-image-right" src={sombra2} alt="sombrafondo"/>
     </section>
   );
 };

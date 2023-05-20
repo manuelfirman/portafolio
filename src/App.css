@@ -291,6 +291,14 @@ border-color: transparent;
   background-repeat: no-repeat;
 }
 
+.banner .banner-col-izq{
+  padding: 0 200px 0 10px;
+}
+
+/* .banner .banner-col-der{
+  
+} */
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -318,6 +326,7 @@ border-color: transparent;
   line-height: 1.5em;
   width: 96%;
   margin-top: 10px;
+  text-align: justify;
 }
 
 .banner button {
@@ -360,8 +369,6 @@ border-color: transparent;
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
-
-
 
 
 

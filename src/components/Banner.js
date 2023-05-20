@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowDownCircle } from "react-bootstrap-icons";
 import imgHeader from "../assets/img/perfil1.png";
+import pdf from "../assets/files/Firman_Juan_CV.pdf";
 
 export const Banner = () => {
   const [numLoop, setNumLoop] = useState(0);
@@ -49,19 +50,19 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col className="banner-col-izq" xs={12} md={6} xl={7}>
             <span className="tagline">Bienvenido a mi Portfolio!</span>
             <h1>{`MANUEL FIRMAN`}</h1>
             <h2><span className="txt-rotate"><span className="wrap">{texto}</span></span></h2>
             <p>
-              Hola! Soy estudiante de programación en la UTN, cursando el ultimo año <br>
+              Hola! Soy estudiante de programación en la UTN, cursando el ultimo año. Me enfoco principalmente en el desarrollo de aplicaciones web, especialmente en backend. En la universidad adquirí una formación sólida en conceptos fundamentales de informatica y programacion. También soy apasionado del desarrollo de juegos. Durante mi carrera tuve la oportunidad de trabajar tanto en proyectos individuales como en equipo, lo que, a dia de hoy, sigue fortaleciendo mis habilidades de comunicación y trabajo en equipo. <br>
               </br>
             </p>
-            <a href="https://github.com/manuelfirman/portfolio-react/blob/master/src/assets/files/Firman_Juan_CV.pdf" download="Firman_Juan_CV.pdf">
+            <a href={pdf} target="_blank" rel="noopener noreferrer" download="Firman_Juan_CV.pdf">
               <button>Descarga mi CV <ArrowDownCircle size={25}/></button>
             </a>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col className="banner-col-der" xs={12} md={6} xl={5}>
             <img src={imgHeader} alt="Imagen header" />
           </Col>
         </Row>

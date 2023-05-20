@@ -41,8 +41,8 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/manuel-firman/" target="_blank">
-                <img src={linkedinIcon} alt="" />
+              <a href="https://www.linkedin.com/in/manuel-firman/" target="_blank" rel="noreferrer">
+                <img src={linkedinIcon} alt="linkedin icon" />
               </a>
             </div>
             <a href="#connect">
