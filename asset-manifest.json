@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.d02ed63f.css",
-    "main.js": "/portfolio-react/static/js/main.94514797.js",
+    "main.css": "/portfolio-react/static/css/main.6d4ff3f7.css",
+    "main.js": "/portfolio-react/static/js/main.6122eb0c.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/perfil.png": "/portfolio-react/static/media/perfil.465bd65062f25b90dc6e.png",
     "static/media/color-sharp.png": "/portfolio-react/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/portfolio-react/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/perfil1.png": "/portfolio-react/static/media/perfil1.1936a0b492902e9cfb1e.png",
+    "static/media/Firman_Juan_CV.pdf": "/portfolio-react/static/media/Firman_Juan_CV.76d3fc8d29a2a9e46c6d.pdf",
     "static/media/bg.png": "/portfolio-react/static/media/bg.cc1273af450504afe755.png",
     "static/media/Roboto-Medium.ttf": "/portfolio-react/static/media/Roboto-Medium.2699aefade440f0e338f.ttf",
     "static/media/Roboto-Thin.ttf": "/portfolio-react/static/media/Roboto-Thin.4ecf36d10d43e2996afe.ttf",
@@ -27,12 +28,12 @@
     "index.html": "/portfolio-react/index.html",
     "static/media/linkedin.svg": "/portfolio-react/static/media/linkedin.93683c2cc3d5ca884dcf6c3525104a48.svg",
     "static/media/nav-icon1.svg": "/portfolio-react/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.d02ed63f.css.map": "/portfolio-react/static/css/main.d02ed63f.css.map",
-    "main.94514797.js.map": "/portfolio-react/static/js/main.94514797.js.map",
+    "main.6d4ff3f7.css.map": "/portfolio-react/static/css/main.6d4ff3f7.css.map",
+    "main.6122eb0c.js.map": "/portfolio-react/static/js/main.6122eb0c.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d02ed63f.css",
-    "static/js/main.94514797.js"
+    "static/css/main.6d4ff3f7.css",
+    "static/js/main.6122eb0c.js"
   ]
 }
