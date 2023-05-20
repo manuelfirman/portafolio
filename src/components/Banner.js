@@ -57,7 +57,7 @@ export const Banner = () => {
               Hola! Soy estudiante de programación en la UTN, cursando el ultimo año <br>
               </br>
             </p>
-            <a href="../assets/files/Firman_Juan_CV.pdf" download="Firman_Juan_CV.pdf">
+            <a href="https://github.com/manuelfirman/portfolio-react/blob/master/src/assets/files/Firman_Juan_CV.pdf" download="Firman_Juan_CV.pdf">
               <button>Descarga mi CV <ArrowDownCircle size={25}/></button>
             </a>
           </Col>
