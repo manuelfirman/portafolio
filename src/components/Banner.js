@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowDownCircle } from "react-bootstrap-icons";
 import imgHeader from "../assets/img/perfil1.png";
-import pdf from "../assets/files/Firman_Juan_CV.pdf";
+import pdf from "../assets/files/FIRMAN_JUAN_MANUEL_CV.pdf";
 
 export const Banner = () => {
   const [numLoop, setNumLoop] = useState(0);
