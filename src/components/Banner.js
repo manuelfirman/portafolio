@@ -58,7 +58,7 @@ export const Banner = () => {
               Hola! Soy estudiante de programación en la UTN, cursando el ultimo año. Me enfoco principalmente en el desarrollo de aplicaciones web, especialmente en backend. En la universidad adquirí una formación sólida en conceptos fundamentales de informatica y programacion. También soy apasionado del desarrollo de juegos. Durante mi carrera tuve la oportunidad de trabajar tanto en proyectos individuales como en equipo, lo que, a dia de hoy, sigue fortaleciendo mis habilidades de comunicación y trabajo en equipo. <br>
               </br>
             </p>
-            <a href={pdf} target="_blank" rel="noopener noreferrer" download="FIRMAN_JUAN_MANUEL_CV.pdf">
+            <a href="https://drive.google.com/file/d/1gpgS2bg6o1Fcztz5_c_vDWtjUCcoVP7S/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <button>Descarga mi CV <ArrowDownCircle size={25}/></button>
             </a>
           </Col>
